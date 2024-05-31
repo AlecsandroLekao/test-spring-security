@@ -1,0 +1,1 @@
+alter table medicos add column status varchar(50);

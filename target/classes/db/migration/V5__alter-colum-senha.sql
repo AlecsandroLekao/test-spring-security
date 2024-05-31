@@ -1,0 +1,1 @@
+alter table usuarios MODIFY column senha varchar(255)

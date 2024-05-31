@@ -1,0 +1,13 @@
+version: '3.7'
+
+services:
+  db:
+    image: mysql:latest
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: minha_senha_root
+      MYSQL_DATABASE: meu_banco_de_dados
+      MYSQL_USER: meu_usuario
+      MYSQL_PASSWORD: minha_senha
+    ports:
+      - "3306:3306"
